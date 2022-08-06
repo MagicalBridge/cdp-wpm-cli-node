@@ -1,0 +1,324 @@
+{
+  "keys": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/config/config.default.js",
+  "middleware": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/config/config.default.js",
+  "view": {
+    "mapping": {
+      ".html": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/config/config.default.js"
+    },
+    "root": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-view/config/config.default.js"
+  },
+  "mongo": {
+    "client": {
+      "host": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/config/config.default.js",
+      "port": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/config/config.default.js",
+      "name": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/config/config.default.js",
+      "user": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/config/config.default.js",
+      "password": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/config/config.default.js",
+      "options": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/config/config.default.js"
+    }
+  },
+  "api": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/config/config.default.js",
+  "session": {
+    "maxAge": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-session/config/config.default.js",
+    "logValue": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-security/config/config.default.js",
+      "type": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-security/config/config.default.js",
+      "supportedRequests": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-security/config/config.default.js",
+      "ipExceptionList": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-multipart/config/config.default.js",
+    "allowArrayField": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-multipart/config/config.default.js",
+      "disable": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-static/config/config.default.js"
+  },
+  "ejs": {
+    "root": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-view-ejs/config/config.default.js",
+    "cache": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-view-ejs/config/config.local.js",
+    "debug": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-view-ejs/config/config.default.js",
+    "compileDebug": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-view-ejs/config/config.default.js",
+    "delimiter": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-view-ejs/config/config.default.js",
+    "strict": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-view-ejs/config/config.default.js"
+  },
+  "env": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+  "name": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+    "version": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+    "description": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+    "private": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+    "egg": {
+      "declarations": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "egg": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+      "egg-mongo-native": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+      "egg-view-ejs": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+      "stop": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+      "dev": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+      "debug": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+      "test": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+      "cov": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+      "lint": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+      "ci": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+      "autod": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+      "url": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+    "license": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+    "cacheControl": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+    "strict": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+      "depth": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+    "env": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+    "level": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+    "enablePerformanceTimer": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+    "logging": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+      "port": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg/config/config.default.js"
+}
