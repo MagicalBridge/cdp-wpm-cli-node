@@ -7,6 +7,7 @@ import ExportMongodbModel = require('../../../app/controller/mongodbModel');
 import ExportNewContent = require('../../../app/controller/newContent');
 import ExportNews = require('../../../app/controller/news');
 import ExportNewsList = require('../../../app/controller/newsList');
+import ExportProject = require('../../../app/controller/project');
 
 declare module 'egg' {
   interface IController {
@@ -15,5 +16,6 @@ declare module 'egg' {
     newContent: ExportNewContent;
     news: ExportNews;
     newsList: ExportNewsList;
+    project: ExportProject;
   }
 }

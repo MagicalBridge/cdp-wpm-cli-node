@@ -208,16 +208,7 @@
       "delimiter": null,
       "strict": false
     },
-    "mongo": {
-      "client": {
-        "host": "127.0.0.1",
-        "port": "27017",
-        "name": "koaTest",
-        "user": "",
-        "password": "<String len: 0>",
-        "options": {}
-      }
-    },
+    "mongo": {},
     "env": "local",
     "name": "example",
     "keys": "<String len: 26>",
@@ -381,7 +372,6 @@
     },
     "onClientError": null,
     "middleware": [],
-    "api": "https://bestpay.com.cn",
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",
     "appMiddleware": "~config~middleware",

@@ -8929,3 +8929,82 @@ hostname: chupengfeideMacBook-Pro.local
 
 2022-08-06 20:25:06,336 INFO 66028 [egg:core] dump config after ready, 5ms
 2022-08-06 20:25:06,346 INFO 66028 [egg-watcher:application] watcher start success
+2022-08-07 10:19:57,580 INFO 69859 [egg:logger] init all loggers with options: {"dir":"/Users/louis/Documents/myProject/cdp-wpm-cli-node/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-07 10:19:57,603 INFO 69859 [egg-multipart] stream mode enable
+2022-08-07 10:19:57,716 INFO 69859 [egg-static] starting static serve /public/ -> /Users/louis/Documents/myProject/cdp-wpm-cli-node/app/public
+2022-08-07 10:19:57,718 INFO 69859 [egg-security] use csrf middleware
+2022-08-07 10:19:57,719 INFO 69859 [egg-security] use methodnoallow middleware
+2022-08-07 10:19:57,720 INFO 69859 [egg-security] use noopen middleware
+2022-08-07 10:19:57,721 INFO 69859 [egg-security] use nosniff middleware
+2022-08-07 10:19:57,721 INFO 69859 [egg-security] use xssProtection middleware
+2022-08-07 10:19:57,722 INFO 69859 [egg-security] use xframe middleware
+2022-08-07 10:19:57,722 INFO 69859 [egg-security] use dta middleware
+2022-08-07 10:19:57,723 INFO 69859 [egg-security] compose 7 middlewares into one security middleware
+2022-08-07 10:19:57,734 INFO 69859 [egg:core] dump config after load, 5ms
+2022-08-07 10:19:57,736 INFO 69859 [egg-mongo] Connecting MongoDB...
+2022-08-07 10:19:57,752 WARN 69859 [egg-mongo] Connect fail on mongodb://127.0.0.1:27017/koaTest.
+2022-08-07 10:19:57,753 ERROR 69859 nodejs.MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  name: 'MongoNetworkError'
+}]
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  name: 'MongoNetworkError'
+}]
+    at Pool.<anonymous> (/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (node:events:526:28)
+    at /Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (node:events:646:26)
+    at Socket.emit (node:events:526:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+name: "MongoNetworkError"
+pid: 69859
+hostname: chupengfeideMacBook-Pro.local
+
+2022-08-07 10:19:57,762 INFO 69859 [egg:core] dump config after ready, 6ms
+2022-08-07 10:19:57,771 INFO 69859 [egg-watcher:application] watcher start success
+2022-08-07 10:23:04,675 INFO 70090 [egg:logger] init all loggers with options: {"dir":"/Users/louis/Documents/myProject/cdp-wpm-cli-node/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-07 10:23:04,699 INFO 70090 [egg-multipart] stream mode enable
+2022-08-07 10:23:04,803 INFO 70090 [egg-static] starting static serve /public/ -> /Users/louis/Documents/myProject/cdp-wpm-cli-node/app/public
+2022-08-07 10:23:04,805 INFO 70090 [egg-security] use csrf middleware
+2022-08-07 10:23:04,806 INFO 70090 [egg-security] use methodnoallow middleware
+2022-08-07 10:23:04,806 INFO 70090 [egg-security] use noopen middleware
+2022-08-07 10:23:04,807 INFO 70090 [egg-security] use nosniff middleware
+2022-08-07 10:23:04,808 INFO 70090 [egg-security] use xssProtection middleware
+2022-08-07 10:23:04,808 INFO 70090 [egg-security] use xframe middleware
+2022-08-07 10:23:04,809 INFO 70090 [egg-security] use dta middleware
+2022-08-07 10:23:04,809 INFO 70090 [egg-security] compose 7 middlewares into one security middleware
+2022-08-07 10:23:04,822 INFO 70090 [egg:core] dump config after load, 5ms
+2022-08-07 10:23:04,838 INFO 70090 [egg-watcher:application] watcher start success
+2022-08-07 10:23:04,845 INFO 70090 [egg:core] dump config after ready, 5ms
+2022-08-07 10:47:23,985 INFO 72634 [egg:logger] init all loggers with options: {"dir":"/Users/louis/Documents/myProject/cdp-wpm-cli-node/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-07 10:47:24,015 INFO 72634 [egg-multipart] stream mode enable
+2022-08-07 10:47:24,143 INFO 72634 [egg-static] starting static serve /public/ -> /Users/louis/Documents/myProject/cdp-wpm-cli-node/app/public
+2022-08-07 10:47:24,145 INFO 72634 [egg-security] use csrf middleware
+2022-08-07 10:47:24,146 INFO 72634 [egg-security] use methodnoallow middleware
+2022-08-07 10:47:24,146 INFO 72634 [egg-security] use noopen middleware
+2022-08-07 10:47:24,147 INFO 72634 [egg-security] use nosniff middleware
+2022-08-07 10:47:24,148 INFO 72634 [egg-security] use xssProtection middleware
+2022-08-07 10:47:24,149 INFO 72634 [egg-security] use xframe middleware
+2022-08-07 10:47:24,149 INFO 72634 [egg-security] use dta middleware
+2022-08-07 10:47:24,149 INFO 72634 [egg-security] compose 7 middlewares into one security middleware
+2022-08-07 10:47:24,165 INFO 72634 [egg:core] dump config after load, 7ms
+2022-08-07 10:47:24,178 INFO 72634 [egg-watcher:application] watcher start success
+2022-08-07 10:47:24,185 INFO 72634 [egg:core] dump config after ready, 5ms
+2022-08-07 10:47:25,203 INFO 72647 [egg:logger] init all loggers with options: {"dir":"/Users/louis/Documents/myProject/cdp-wpm-cli-node/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-07 10:47:25,226 INFO 72647 [egg-multipart] stream mode enable
+2022-08-07 10:47:25,359 INFO 72647 [egg-static] starting static serve /public/ -> /Users/louis/Documents/myProject/cdp-wpm-cli-node/app/public
+2022-08-07 10:47:25,361 INFO 72647 [egg-security] use csrf middleware
+2022-08-07 10:47:25,362 INFO 72647 [egg-security] use methodnoallow middleware
+2022-08-07 10:47:25,362 INFO 72647 [egg-security] use noopen middleware
+2022-08-07 10:47:25,363 INFO 72647 [egg-security] use nosniff middleware
+2022-08-07 10:47:25,364 INFO 72647 [egg-security] use xssProtection middleware
+2022-08-07 10:47:25,365 INFO 72647 [egg-security] use xframe middleware
+2022-08-07 10:47:25,365 INFO 72647 [egg-security] use dta middleware
+2022-08-07 10:47:25,365 INFO 72647 [egg-security] compose 7 middlewares into one security middleware
+2022-08-07 10:47:25,377 INFO 72647 [egg:core] dump config after load, 6ms
+2022-08-07 10:47:25,392 INFO 72647 [egg-watcher:application] watcher start success
+2022-08-07 10:47:25,400 INFO 72647 [egg:core] dump config after ready, 6ms

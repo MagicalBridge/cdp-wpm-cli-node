@@ -1813,3 +1813,18 @@
 2022-08-06 20:25:06,191 INFO 66028 [egg-schedule]: register schedule /Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
 2022-08-06 20:25:06,191 INFO 66028 [egg-schedule]: register schedule /Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-logrotator/app/schedule/clean_log.js
 2022-08-06 20:25:06,191 INFO 66028 [egg-schedule]: register schedule /Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-08-07 10:19:57,603 INFO 69859 [egg-schedule]: register schedule /Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-08-07 10:19:57,603 INFO 69859 [egg-schedule]: register schedule /Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-08-07 10:19:57,603 INFO 69859 [egg-schedule]: register schedule /Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-08-07 10:23:04,865 INFO 70089 [Timer] /Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 65215139ms at 2022-08-08 04:30:00.004
+2022-08-07 10:23:04,866 INFO 70089 [Timer] /Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 49015134ms at 2022-08-08 00:00:00.000
+2022-08-07 10:23:04,866 INFO 70089 [Timer] /Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 49016134ms at 2022-08-08 00:00:01.000
+2022-08-07 10:23:04,698 INFO 70090 [egg-schedule]: register schedule /Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-08-07 10:23:04,698 INFO 70090 [egg-schedule]: register schedule /Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-08-07 10:23:04,698 INFO 70090 [egg-schedule]: register schedule /Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-08-07 10:47:24,014 INFO 72634 [egg-schedule]: register schedule /Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-08-07 10:47:24,014 INFO 72634 [egg-schedule]: register schedule /Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-08-07 10:47:24,014 INFO 72634 [egg-schedule]: register schedule /Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-08-07 10:47:25,225 INFO 72647 [egg-schedule]: register schedule /Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-08-07 10:47:25,225 INFO 72647 [egg-schedule]: register schedule /Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-08-07 10:47:25,226 INFO 72647 [egg-schedule]: register schedule /Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js

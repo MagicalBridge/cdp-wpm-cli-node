@@ -1395,3 +1395,45 @@ name: "MongoNetworkError"
 pid: 66028
 hostname: chupengfeideMacBook-Pro.local
 
+2022-08-07 10:19:57,753 ERROR 69859 nodejs.MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  name: 'MongoNetworkError'
+}]
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  name: 'MongoNetworkError'
+}]
+    at Pool.<anonymous> (/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (node:events:526:28)
+    at /Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (node:events:646:26)
+    at Socket.emit (node:events:526:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+name: "MongoNetworkError"
+pid: 69859
+hostname: chupengfeideMacBook-Pro.local
+
+2022-08-07 10:19:57,755 ERROR 69859 [-/127.0.0.1/-/1ms GET /] nodejs.MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  name: 'MongoNetworkError'
+}]
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  name: 'MongoNetworkError'
+}]
+    at Pool.<anonymous> (/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (node:events:526:28)
+    at /Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/Users/louis/Documents/myProject/cdp-wpm-cli-node/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (node:events:646:26)
+    at Socket.emit (node:events:526:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+name: "MongoNetworkError"
+pid: 69859
+hostname: chupengfeideMacBook-Pro.local
+

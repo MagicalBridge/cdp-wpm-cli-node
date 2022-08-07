@@ -34,20 +34,21 @@ module.exports = appInfo => {
     },
   };
 
-  config.mongo = {
-    client: {
-      host: '127.0.0.1',
-      port: '27017',
-      name: 'koaTest',
-      user: '',
-      password: '',
-      options: {},
-    },
-  };
+  // config.mongo = {
+  //   client: {
+  //     host: '127.0.0.1',
+  //     port: '27017',
+  //     name: 'koaTest',
+  //     user: '',
+  //     password: '',
+  //     options: {},
+  //   },
+  // };
 
   // 全局定义api
-  config.api = 'https://bestpay.com.cn';
+  // config.api = 'https://bestpay.com.cn';
 
+  
   // add your user config here
   const userConfig = {
     // myAppName: 'egg',
