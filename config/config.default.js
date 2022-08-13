@@ -18,6 +18,19 @@ module.exports = appInfo => {
   // add your middleware config here
   config.middleware = [];
 
+  config.mongo = {
+    client: {
+      host: '47.103.72.18',
+      port: '27898',
+      name: 'cdp-wpm-cli',
+      user: '',
+      password: '',
+      options: {
+        useUnifiedTopology: true,
+      },
+    },
+  };
+
   // add your user config here
   const userConfig = {
     // myAppName: 'egg',
